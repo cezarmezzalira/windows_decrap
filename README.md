@@ -1,33 +1,45 @@
-# Window\$s 10 Decrap Services\*\*
+# Window\$s 10 Decrap Services
 
 # How to use:
 
 ### DISCLAIMER: Next, the list of Services that you'll disable if you execute all commands:
 
-**DiagTrack**- Connected User Experiences and Telemetry;
+- **DiagTrack**- Connected User Experiences and Telemetry;
 
-**MapsBroker** - Downloaded Maps Broker;
+- **MapsBroker** - Downloaded Maps Broker;
 
-**SEMgrSvc** - Payments and NFC/SE Manager
+- **SEMgrSvc** - Payments and NFC/SE Manager
 
-**autotimesvc** - Cellular Time
+- **autotimesvc** - Cellular Time
 
-**WbioSrvc** - Windows Biometric Service
+- **WbioSrvc** - Windows Biometric Service
 
-**lfsvc** - Geolocation Service
+- **lfsvc** - Geolocation Service
 
-**TabletInputService** - Touch Keyboard and Handwriting Panel Service
+- **TabletInputService** - Touch Keyboard and Handwriting Panel Service
 
-**PhoneSvc** - Phone Service
+- **PhoneSvc** - Phone Service
 
-**SysMain** - SysMain Service Defaults
+- **SysMain** - SysMain Service Defaults
 
-**DusmSvc** - Data Usage
+- **DusmSvc** - Data Usage
+
+- **XblGameSave**  - Xbox Live Game Save
+
+- **XboxNetApiSvc** - Xbox Live Networking Service  
+
+- **XboxGipSvc** - Xbox Accessory Management Service 
+
+- **TapiSrv** - Telephony Service
+
+- **WalletService** - Wallet Service
+
 
 # This commands will disable some useful services, please be careful:
 
 **1. Copy only the commands refer to services you want to disable:**
 
+    
     Set-Service DiagTrack -StartupType Disable
     Set-Service MapsBroker -StartupType Disable
     Set-Service SEMgrSvc -StartupType Disable
@@ -38,6 +50,12 @@
     Set-Service PhoneSvc -StartupType Disable
     Set-Service SysMain -StartupType Disable
     Set-Service DusmSvc -StartupType Disable
+    Set-Service XblGameSave -StartupType Disable
+    Set-Service XboxNetApiSvc -StartupType Disable
+    Set-Service XboxGipSvc -StartupType Disable
+    Set-Service TapiSrv -StartupType Disable
+    Set-Service WalletService -StartupType Disable
+    
 
 **2. Click with right button on Start and click on Windows PowerShell(As Admin)**
 
