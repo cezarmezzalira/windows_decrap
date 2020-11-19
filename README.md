@@ -5,14 +5,23 @@
 ### DISCLAIMER: Next, the list of Services that you'll disable if you execute all commands:
 
 **DiagTrack**- Connected User Experiences and Telemetry;
+
 **MapsBroker** - Downloaded Maps Broker;
+
 **SEMgrSvc** - Payments and NFC/SE Manager
+
 **autotimesvc** - Cellular Time
+
 **WbioSrvc** - Windows Biometric Service
+
 **lfsvc** - Geolocation Service
+
 **TabletInputService** - Touch Keyboard and Handwriting Panel Service
+
 **PhoneSvc** - Phone Service
+
 **SysMain** - SysMain Service Defaults
+
 **DusmSvc** - Data Usage
 
 # This commands will disable some useful services, please be careful:
