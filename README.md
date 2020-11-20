@@ -1,4 +1,4 @@
-# Window\$s 10 Decrap Services
+# Window\$ 10 Decrap Services
 
 # How to use:
 
